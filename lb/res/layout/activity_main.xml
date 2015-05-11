@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d6ebf5"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/nav_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nav_bg" >
+
+        <ImageView
+            android:id="@+id/widget36"
+            android:layout_width="wrap_content"
+           android:layout_height="30dp"
+            android:src="@drawable/first_index" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/widget37"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="bottom"
+            android:text="首页" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/widget38"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="bottom"
+            android:text=">" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/widget39"
+            android:layout_width="wrap_content"
+           android:layout_height="30dp"
+            android:src="@drawable/nav_knowledge" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/widget40"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="bottom"
+            android:text="知识管理" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/one_select"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="目录管理" />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/two_select"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="知识管理" />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/three_select"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="知识搜索" />
+    </LinearLayout>
+
+</LinearLayout>

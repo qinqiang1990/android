@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/add_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="添加数据" >
+    </Button>
+ 
+
+    <Button
+        android:id="@+id/delete_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="删除数据" >
+    </Button>
+
+    <Button
+        android:id="@+id/edit_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="修改数据" >
+    </Button>
+
+    <Button
+        android:id="@+id/query_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="查询数据" >
+    </Button>
+
+    <ListView
+        android:id="@+id/show_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
